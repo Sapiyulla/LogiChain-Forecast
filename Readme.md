@@ -214,6 +214,6 @@ MIT License — подробности в файле [LICENSE](LICENSE).
 
 ## 👤 Автор
 
-**Ваше Имя**  
+**Sapiyulla**  
 Студент 2 курса Факультета информатики и информационных технологий  
-[GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
+[GitHub](https://github.com/Sapiyulla)
