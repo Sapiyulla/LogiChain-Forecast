@@ -1,12 +1,12 @@
 # LogiChain Forecast
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/)
-[![Airflow](https://img.shields.io/badge/Apache%20Airflow-2.9-017CEE?logo=apacheairflow)](https://airflow.apache.org/)
-[![dbt](https://img.shields.io/badge/dbt-1.7-FF694B?logo=dbt)](https://www.getdbt.com/)
-[![LightGBM](https://img.shields.io/badge/LightGBM-4.3-3670A0?logo=lightgbm)](https://lightgbm.readthedocs.io/)
+[![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)](https://www.python.org/)
+[![Airflow](https://img.shields.io/badge/Apache%20Airflow-3.2.0-017CEE?logo=apacheairflow)](https://airflow.apache.org/)
+[![dbt](https://img.shields.io/badge/dbt-1.11.7-FF694B?logo=dbt)](https://www.getdbt.com/)
+[![LightGBM](https://img.shields.io/badge/LightGBM-4.3-yellow?logo=lightgbm)](https://lightgbm.readthedocs.io/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28-FF4B4B?logo=streamlit)](https://streamlit.io/)
-[![Docker](https://img.shields.io/badge/Docker-24.0-2496ED?logo=docker)](https://www.docker.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1?logo=postgresql)](https://www.postgresql.org/)
+[![Docker](https://img.shields.io/badge/Docker-28.3.2-2496ED?logo=docker)](https://www.docker.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-4169E1?logo=postgresql)](https://www.postgresql.org/)
 
 **Программное средство для прогнозирования загрузки складских площадей (3PL-логистика)**
 
