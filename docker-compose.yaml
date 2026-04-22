@@ -18,7 +18,6 @@
 # Basic Airflow cluster configuration for LocalExecutor with PostgreSQL.
 # Suitable for local development and single-node production.
 ---
-version: '3.8'
 
 x-airflow-common:
   &airflow-common
@@ -144,6 +143,10 @@ services:
     image: postgres:15-alpine
     container_name: warehouse
     hostname: warehouse
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres/docker-entrypoint-initdb.d/init.sql:/docker-entrypoint-initdb.d/init.sql
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
