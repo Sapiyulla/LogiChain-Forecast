@@ -151,6 +151,23 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: warehouse
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+    
+  dbt:
+    image: ghcr.io/dbt-labs/dbt-postgres:1.9.0
+    container_name: dbt
+    volumes:
+      - ./dbt_project:/usr/app/dbt
+    environment:
+      - DBT_PROFILES_DIR=/usr/app/dbt/profiles
+    working_dir: /usr/app/dbt/logichain   # ← добавляем эту строку
+    depends_on:
+      warehouse:
+        condition: service_healthy
 
   streamlit:
     container_name: logichain-streamlit

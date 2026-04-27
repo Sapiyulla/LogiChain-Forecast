@@ -1,5 +1,8 @@
 # LogiChain Forecast
 
+> К сожалению проект не доведен до бета-версии. Автор активно работает над курсовой работой (в рамках университетской дисциплины) в сфере DE.
+> Активные проекты можно рассмотреть в [Sapiyulla`s repositories](https://github.com/Sapiyulla?tab=repositories) по последним коммитам.
+
 [![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)](https://www.python.org/)
 [![Airflow](https://img.shields.io/badge/Apache%20Airflow-3.2.0-017CEE?logo=apacheairflow)](https://airflow.apache.org/)
 [![dbt](https://img.shields.io/badge/dbt-1.11.7-FF694B?logo=dbt)](https://www.getdbt.com/)

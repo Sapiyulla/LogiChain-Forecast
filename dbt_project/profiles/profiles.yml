@@ -1,0 +1,12 @@
+logichain:
+  outputs:
+    dev:
+      dbname: warehouse
+      host: warehouse
+      pass: postgres
+      port: 5432
+      schema: silver
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev
